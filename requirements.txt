@@ -1,0 +1,50 @@
+# AUM COMPANION: REAL AI REQUIREMENTS (Production)
+# YOLOv8 + CLIP + Whisper + Φ-LUCA + Price APIs
+
+# 🔥 CORE AI MODELS (Object Detection + Classification + Speech)
+ultralytics==8.2.0              # YOLOv8 real-time detection (coins/furniture/rocks)
+transformers==4.44.2             # CLIP zero-shot "rare coin/antique desk"
+torch==2.1.0+cu121               # Φ-LUCA AGI + tensor ops
+torchaudio==2.1.0+cu121          # Whisper audio processing
+torchvision==0.16.0+cu121        # Image transforms
+
+# 🎤 SPEECH PROCESSING
+openai-whisper==20231117         # "AUM what's that worth?" → text
+
+# 📖 OCR (Hallmarks/Signatures/Dates)
+easyocr==1.7.1                   # PCGS grades, Virginia 1780s labels
+paddlepaddle==2.6.1              # EasyOCR backend
+
+# 🌐 PRICE APIs + WEB SCRAPING
+requests==2.31.0                 # eBay/PCGS/Heritage APIs
+beautifulsoup4==4.12.3           # eBay sold listings parsing
+lxml==5.2.1                      # Fast HTML parsing
+
+# 🧠 Φ-LUCA YOUR CORE
+numpy==1.26.4                    # Physics calculations
+scipy==1.11.4                    # Honest Core numerics
+sympy==1.12                      # Exact φ/α symbolic math
+
+# 🌐 BACKEND SERVER
+flask==3.0.3                     # AUM /analyze API
+Werkzeug==3.0.3                  # Production Flask server
+
+# 📱 MOBILE INTEGRATION
+Pillow==10.4.0                   # Image resize/crop
+opencv-python==4.10.0.82         # Real-time image processing
+
+# 🔒 CRYPTO/CYBSEC (Your existing stack)
+cryptography==43.0.1             # Post-quantum signatures
+pyjwt==2.9.0                     # JWT tokens
+ecdsa==0.19.0                    # ECDSA signing
+
+# 📊 MONITORING
+rich==13.7.3                     # Beautiful terminal UI
+tqdm==4.66.5                     # Progress bars
+
+# 🚀 PRODUCTION EXTRAS
+gunicorn==22.0.0                 # Production WSGI server
+gevent==24.2.1                   # Async API scaling
+
+# 🐳 DOCKER (Optional)
+docker==7.1.0                    # Container deployment

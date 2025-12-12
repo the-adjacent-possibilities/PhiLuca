@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hologram_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="ESQET UNIVERSE VIEWPORT\n(GLSurfaceView Placeholder)"
+        android:textColor="#00FF00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/torsion_index_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:padding="8dp"
+        android:textColor="#00FFFF"
+        android:textSize="14sp"
+        android:text="I_Tors: Initializing..."
+        android:background="#80000000" />
+
+    <TextView
+        android:id="@+id/soul_status_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/torsion_index_display"
+        android:layout_alignParentStart="true"
+        android:padding="8dp"
+        android:textColor="#FFFF00"
+        android:textSize="14sp"
+        android:text="Status: Waiting for Chronos..."
+        android:background="#80000000" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+# AUM COMPANION: TERMUX PYTHON 3.12+ (NO CUDA, CPU-ONLY, STABLE VERSIONS)
+# Fixed: No ultralytics pinning issues, no CUDA, no paddlepaddle
+
+# 🔥 CORE AI (CPU-ONLY Termux)
+torch==2.4.1+cpu                  # Φ-LUCA AGI (CPU)
+torchaudio==2.4.1+cpu             # Whisper audio
+torchvision==0.19.1+cpu           # Image processing
+transformers==4.44.2              # CLIP zero-shot
+ultralytics>=8.3.0                # YOLOv8 (latest compatible)
+
+# 🎤 SPEECH (Tiny model - fast on phone)
+openai-whisper==20231117
+
+# 📖 OCR (Tesseract only)
+easyocr==1.7.2                    # Tesseract backend
+pytesseract==0.3.13               # Python Tesseract wrapper
+
+# 🌐 WEB/SCRAPING
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# 🧠 MATH/PHYSICS
+numpy==2.1.1
+scipy==1.14.1
+
+# 🌐 SERVER
+flask==3.0.3
+Werkzeug==3.0.4
+
+# 📱 IMAGES
+Pillow==11.1.0
+opencv-python-headless==4.10.0.84
+
+# 🔒 CRYPTO (Stable versions)
+cryptography==42.0.8              # Post-quantum ready
+pyjwt==2.8.0                      # JWT tokens
+
+# 📊 UTILS
+rich==13.7.3
+tqdm==4.66.5
+
+# PRODUCTION
+gunicorn==22.0.0

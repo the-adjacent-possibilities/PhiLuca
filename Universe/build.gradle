@@ -1,0 +1,26 @@
+plugins { id 'com.android.application' }
+
+android {
+    compileSdk 35
+    defaultConfig {
+        applicationId "com.esqet.universe"
+        minSdk 21
+        targetSdk 35
+        versionCode 137035999206862572306
+        versionName "13.80000000000000000000"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core:1.12.0'
+}
