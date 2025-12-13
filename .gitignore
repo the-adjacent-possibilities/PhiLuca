@@ -1,25 +1,15 @@
-# 👑 KEEP: Your Nobel research + SECRETS
+# 👑 KEEP: Your Nobel research
 esqet_agi/
 git-repos/
 esqet_arxiv/
 ingested_archive/
 rejected_files/
 *.tex *.pdf *.md whitepaper.md
-.env
-.env.local
-.env.*.local
-secrets/
-config/
-private/
 
-# 🗑️ CLEAN: Node.js bloat + caches ONLY
+# 🗑️  CLEAN: Node.js bloat only
 node_modules/
 package-lock.json
 hardhat.config.js
 .DS_Store
 *.log
 __pycache__/
-.pytest_cache/
-.coverage
-/dist/
-build/
